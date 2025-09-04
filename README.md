@@ -172,8 +172,8 @@ Cleaning and feature engineering remain relevant but are applied to the new data
 ## Active Plan
 
 ### Milestone 1: Data Prep
-- [:white_check_mark:] M1.T1 Acquire EHR dataset (Alice)
-- [ ] M1.T2 — Initial EDA (Team)
+- [✅] M1.T1 — Acquire EHR dataset (Alice)
+- [✅] M1.T2 — Initial EDA (Team)
 - [⏳] M1.T1A — Acquire educational dataset (Alice)
 - [ ] M1.T2A — Initial EDA of new data (Team)
 - [ ] M1.T3 — Clean data (Bob)   [revised]
@@ -190,12 +190,14 @@ Cleaning and feature engineering remain relevant but are applied to the new data
 - (Team) M1.T2A — Initial EDA
 
 ## Log
-2025-09-21 - 
-- (Bob) M1.T2 — Initial EDA - worked on this, scatterplots suggest this is simulated data? Contacted others...
+2025-09-21
+- (Bob) ⏳ M1.T2 — Initial EDA - worked on this, scatterplots suggest this is simulated data? Contacted others...
 
 2025-09-23 - **Major Pivot**
-- (Alice) 🆕 M1.T1A — Added new task to acquire educational dataset.
-- (Team) 🆕 M1.T2A added to reflect new data set
+- (Team) ❌ M1.T2 — Abandoned EHR analysis due to simulated/unusable data
+- (Alice) 🆕 M1.T1A — Added new task to acquire educational dataset
+- (Team) 🆕 M1.T2A — Added to reflect new dataset
+- (Bob, Carol) 🔄 M1.T3 and M1.T4 revised to work with educational data
 ```
 
 ---
@@ -246,11 +248,13 @@ Team decides to add PCA dimensionality reduction.
 
 ## Log
 2025-09-22
-- (Bob) M2.T1 — Evaluated VADER; not happy with results.  Going to try https://huggingface.co/shhossain/all-MiniLM-L6-v2-sentiment-classifier
+- (Bob) ⏳ M2.T1 — Evaluated VADER; not happy with results. Going to try https://huggingface.co/shhossain/all-MiniLM-L6-v2-sentiment-classifier
+
 2025-09-24
-- (Alice) - Tried aggregating scores, but uncertain how to handle different sentiment types from new model?
+- (Alice) ⏳ M2.T2 — Tried aggregating scores, but uncertain how to handle different sentiment types from new model?
+
 2025-09-26
-- (Carol) 🆕 M2.T3 — Added PCA for dimensionality reduction.
+- (Carol) 🆕 M2.T3 — Added PCA for dimensionality reduction
 ```
 
 
